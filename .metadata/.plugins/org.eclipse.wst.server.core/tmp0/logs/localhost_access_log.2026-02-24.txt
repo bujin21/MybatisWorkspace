@@ -1,0 +1,17 @@
+127.0.0.1 - - [24/Feb/2026:14:43:03 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:14:43:27 +0900] "GET /mybatis HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:14:43:27 +0900] "GET /mybatis/ HTTP/1.1" 200 550
+127.0.0.1 - - [24/Feb/2026:15:42:20 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:15:42:48 +0900] "GET /mybatis/insertStudent.jsp HTTP/1.1" 404 810
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:15:42:59 +0900] "GET /mybatis/student/insertStudent.jsp HTTP/1.1" 500 3340
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:15:43:34 +0900] "GET /mybatis/student/insertStudent.jsp HTTP/1.1" 200 2942
+127.0.0.1 - - [24/Feb/2026:16:38:57 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:39:03 +0900] "GET /mybatis/student/insertStudent.jsp HTTP/1.1" 200 2942
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:39:05 +0900] "GET /mybatis/student/insertStudent.jsp HTTP/1.1" 200 2942
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:39:26 +0900] "POST /mybatis/student/insertStudent HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:39:26 +0900] "GET /mybatis/student/insertStudent HTTP/1.1" 200 3017
+127.0.0.1 - - [24/Feb/2026:16:47:38 +0900] "GET / HTTP/1.1" 404 808
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:47:45 +0900] "POST /mybatis/student/insertStudent HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:47:45 +0900] "GET /mybatis/student/insertStudent HTTP/1.1" 200 3017
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:50:30 +0900] "POST /mybatis/student/insertStudent HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2026:16:50:30 +0900] "GET /mybatis/student/insertStudent HTTP/1.1" 200 3017

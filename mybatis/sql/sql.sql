@@ -1,0 +1,14 @@
+-------------------------------------------관리자계정
+CREATE USER MYBATIS IDENTIFIED BY MYBATIS;
+GRANT CONNECT, RESOURCE, CREATE SYNONYM TO MYBATIS;
+
+GRANT ALL ON KH.EMPLOYEE TO MYBATIS;
+GRANT SELECT ON KH.DEPARTMENT TO MYBATIS;
+GRANT SELECT ON KH.JOB TO MYBATIS;
+--------------------------------------------------------
+
+CREATE USER MYBATIS IDENTIFIED BY MYBATIS;
+GRANT CONNECT, RESOURCE, CREATE SYNONYM TO MYBATIS;
+--=============================
+-- mybatis 계정
+--=============================

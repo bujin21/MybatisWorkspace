@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\MyBatisWorkspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+928374399.index
+1088363410.index
+2631962003.index
+2355472347.index
+1052982075.index
+4014263395.index
+3447606471.index
