@@ -3,5 +3,7 @@
     <fullyQualifiedTypeName name="org.apache.ibatis.io.Resources"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.kh.mybatis.student.model.service.StudentService"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSession"/>
     <fullyQualifiedTypeName name="com.kh.mybatis.common.SqlSessionTemplate"/>
 </qualifiedTypeNameHistroy>
